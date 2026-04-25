@@ -26,7 +26,7 @@ export default function Navbar() {
         scrolled ? 'bg-charcoal/96 backdrop-blur-sm shadow-md' : 'bg-transparent'
       }`}
     >
-      <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16 md:h-20">
+      <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-20 md:h-24">
         {/* Logo */}
         <a
           href="#inicio"
@@ -40,7 +40,7 @@ export default function Navbar() {
             height={31}
             priority
             unoptimized
-            className="h-8 w-auto"
+            className="h-16 w-auto"
           />
         </a>
 
