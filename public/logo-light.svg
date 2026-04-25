@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 355 62" role="img" aria-label="Contrapeso Vertical SpA">
+  <title>Contrapeso Vertical SpA</title>
+
+  <!-- Square frame -->
+  <rect x="2" y="5" width="52" height="52" rx="2" fill="none" stroke="#9a7c3a" stroke-width="1.5"/>
+
+  <!-- C — misma geometría que logo-dark -->
+  <path d="M 30.19 25.26 A 10 10 0 1 0 30.19 36.74"
+        fill="none" stroke="#1c1c1a" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- V -->
+  <path d="M 33 21 L 40.5 41 L 48 21"
+        fill="none" stroke="#1c1c1a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Contrapeso -->
+  <text x="69" y="30"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="19" fill="#111008" font-weight="400">Contrapeso</text>
+
+  <!-- VERTICAL -->
+  <text x="70" y="43"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="10" fill="#9a7c3a" letter-spacing="4">VERTICAL</text>
+
+  <!-- Línea horizontal dorada -->
+  <line x1="69" y1="48" x2="190" y2="48" stroke="#9a7c3a" stroke-width="0.7"/>
+
+  <!-- Tagline -->
+  <text x="69" y="58"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="9" fill="#6b6458" letter-spacing="1.6">CONSULTORÍA TÉCNICA INDEPENDIENTE</text>
+</svg>

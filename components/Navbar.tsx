@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 
 const navLinks = [
   { label: 'El problema', href: '#el-problema' },
@@ -29,9 +30,18 @@ export default function Navbar() {
         {/* Logo */}
         <a
           href="#inicio"
-          className="font-serif text-cream text-base md:text-lg tracking-wide hover:text-bronze transition-colors duration-300"
+          className="flex items-center opacity-90 hover:opacity-100 transition-opacity duration-300"
+          aria-label="Contrapeso Vertical SpA — Inicio"
         >
-          Contrapeso Vertical
+          <Image
+            src="/logo-dark.svg"
+            alt="Contrapeso Vertical SpA"
+            width={180}
+            height={31}
+            priority
+            unoptimized
+            className="h-8 w-auto"
+          />
         </a>
 
         {/* Desktop navigation */}

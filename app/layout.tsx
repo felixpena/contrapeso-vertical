@@ -39,6 +39,11 @@ export const metadata: Metadata = {
     'perito ascensores Chile',
     'comité administración ascensores',
   ],
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   authors: [{ name: 'Contrapeso Vertical SpA' }],
   creator: 'Contrapeso Vertical SpA',
   publisher: 'Contrapeso Vertical SpA',
