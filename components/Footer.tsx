@@ -42,6 +42,17 @@ export default function Footer() {
             Sin vínculos con mantenedoras ni fabricantes.
           </p>
         </div>
+
+        <div className="border-t border-cream/5 mt-8 pt-6 flex justify-center">
+          <a
+            href="https://www.sfumato.design"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-sans text-[10px] text-cream/20 tracking-widest uppercase hover:text-cream/50 transition-colors duration-300"
+          >
+            Diseñado por SFUMATO
+          </a>
+        </div>
       </div>
     </footer>
   )
