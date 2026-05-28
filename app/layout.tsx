@@ -95,6 +95,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="es-CL" className={`${cormorant.variable} ${dmSans.variable}`}>
       <head>
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QH4FBDP7N3" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-QH4FBDP7N3');
+            `,
+          }}
+        />
         {/* Structured data — LocalBusiness */}
         <script
           type="application/ld+json"
